@@ -69,9 +69,6 @@ class Net(nn.Module):
 
             pred_x = inverse_data_transform(pred_LL)
             data_dict["pred_x"] = pred_x
-
-
-
         return data_dict
 
 class PerceptionLoss(nn.Module):
